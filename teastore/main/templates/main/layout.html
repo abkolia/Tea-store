@@ -16,9 +16,9 @@
             <h3>Барнаульский чай</h3>
         </div>
         <div class="menu">
-            <a href="/">На главную</a>
-            <a href="/">Каталог</a>
-            <a href="/">Контакты</a>
+            <a href="{% url 'home' %}">На главную</a>
+            <a href="{% url 'catalog' %}">Каталог товаров</a>
+            <a href="{% url 'contact' %}">Контакты</a>
         </div>
         <div class="buy">
             <a href="/" class="btn btn-warning">Сделать заказ</a>
