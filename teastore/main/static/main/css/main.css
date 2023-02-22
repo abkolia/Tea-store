@@ -50,3 +50,13 @@ body {
     color: white;
     margin-right: 40px;
 }
+
+.btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.btn:focus {
+    background-color: white;
+    color: black;
+}
